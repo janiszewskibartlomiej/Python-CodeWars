@@ -12,5 +12,6 @@ def toJadenCase(string):
     return xx.strip()
 
 if __name__ == '__main__':
-    text = toJadenCase(Not_Jaden_Cased)
+    quote = "How can mirrors be real if our eyes aren't real"
+    text = toJadenCase(quote)
     print(text)

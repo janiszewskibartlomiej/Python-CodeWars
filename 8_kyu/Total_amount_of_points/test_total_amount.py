@@ -1,5 +1,5 @@
 import unittest
-from points import points
+from solution import points
 
 
 class TestChampion(unittest.TestCase):
