@@ -1,5 +1,6 @@
 def bmi(weight, height):
     bmi_ex = weight / (height ** 2)
+    print(bmi_ex)
     info = ["Underweight", "Normal", "Overweight", "Obese"]
     if 0 < bmi_ex <= 18.5:
         info = info[0]
@@ -12,5 +13,5 @@ def bmi(weight, height):
     return info
 
 if __name__ == '__main__':
-    x = bmi(50, 1.80)
+    x = bmi(80, 1.76)
     print(x)
