@@ -4,8 +4,6 @@
 # wejście: [2,3,7,4,9], 10
 # wyjście: [1,5,6,8,10]
 
-print([x for x in range(0,11)])
-
 def diff_in_list(list, i):
     # lista = []
     # print(lista)
