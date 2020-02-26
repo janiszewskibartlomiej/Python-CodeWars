@@ -4,7 +4,7 @@
 def code_generator(start, stop):
     start =int(start.replace("-", ""))
     stop = int(stop.replace("-", ""))
-    codeList = ["%02d-%03d" % divmod(x, 1000) for x in range(start+1,stop)]
+    codeList = ['{}-{}'.format(*divmod(x, 1000)) for x in range(start + 1, stop)]
     return codeList
     
 if __name__ == '__main__':
