@@ -5,23 +5,10 @@
 # wyjście: [1,5,6,8,10]
 
 def diff_in_list(list, i):
-    # lista = []
-    # print(lista)
-    # generator = [x for x in range(1,i+1)]
-    # print(generator)
-    # print(len(generator))
-
-    lista1 = [x for x in range(1,i+1) if x not in list]
-
-    # for x  in range(0,len(generator)):
-    #     el = generator[x]
-    #     print(el)
-    #     if el not in list:
-    #         lista.append(el)
+    solution_list = [x for x in range(1, i + 1) if x not in list]
+    return solution_list
 
 
-    return lista1
-
-
-test = diff_in_list([2,3,7,4,9], 10)
-print(test)
+if __name__ == '__main__':
+    test = diff_in_list([2, 3, 7, 4, 9], 10)
+    print(test)
